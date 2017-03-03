@@ -1,0 +1,28 @@
+*.jou
+*.log
+*.str
+*.xpr
+*.Xil
+*.cache
+*.data
+*.runs
+*.hw
+*.zip
+*.html
+# *.bit and we can keep the bit file
+*.elf
+*.bin
+*config_settings
+*example_designs
+*.debug
+*~
+
+# Make sure we keep only xci files in ip src subfolder
+/ip/*
+!/ip/*/
+/ip/*/*
+!/ip/*/*.xci
+!/ip/*/*.prj
+
+# ignore everything in vivado folder
+/vivado/*
